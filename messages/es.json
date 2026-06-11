@@ -1,0 +1,14 @@
+{
+    "nav": {
+      "work": "Trabajo",
+      "about": "Sobre mí",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "tag": "Design Engineer · Frontend",
+      "headline": "Interfaces que se sienten tan bien como funcionan.",
+      "sub": "7 años construyendo productos de Growth en CookUnity. Vivo en la intersección entre sistemas de diseño, motion e ingeniería frontend.",
+      "cta_primary": "Ver trabajo",
+      "cta_secondary": "Descargar CV"
+    }
+  }
