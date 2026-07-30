@@ -1,14 +1,136 @@
 {
-    "nav": {
-      "work": "Work",
+    "Nav": {
+      "brand": "Florencia Scavone",
+      "home": "Home",
       "about": "About",
-      "contact": "Contact"
+      "experience": "Experience",
+      "skills": "Skills",
+      "education": "Education",
+      "work": "Work",
+      "contact": "Contact",
+      "toggleTheme": "Toggle theme"
     },
-    "hero": {
-      "tag": "Design Engineer · Frontend",
-      "headline": "Building interfaces that feel as good as they work.",
-      "sub": "7 years crafting Growth products at CookUnity. I live at the intersection of design systems, motion, and frontend engineering.",
-      "cta_primary": "View work",
-      "cta_secondary": "Download CV"
+    "Hero": {
+      "tag": "Senior Frontend Engineer · 7+ years of experience",
+      "headlineStart": "Building fast,",
+      "headlineEm": "accessible interfaces",
+      "headlineEnd": "for products that grow.",
+      "sub": "Specialized in React & Next.js. Focused on growth, conversion optimization, A/B testing, and high-performance design systems.",
+      "ctaPrimary": "View work",
+      "ctaSecondary": "Download CV"
+    },
+    "About": {
+      "tag": "01 / ABOUT",
+      "headlineStart": "Driving product growth right from the",
+      "headlineEm": "Frontend",
+      "headlineEnd": "",
+      "sub": "I'm Florencia Scavone, a Frontend Engineer working at the intersection of UI design and frontend engineering.",
+      "secondSub": "Over the past 7 years on the Growth team at CookUnity, I learned that a great interface must not only look stunning—it needs to be finely tuned to convert, scale, and delight users. My approach pairs Figma’s aesthetic precision with the technical rigor of Next.js, TypeScript, and Tailwind CSS.",
+      "techStackTitle": "CORE STACK",
+      "skills": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Design Systems", "A/B Testing"]
+    },
+    "Experience": {
+      "tag": "02 / EXPERIENCE",
+      "role": "Senior Frontend Engineer",
+      "company": "CookUnity — Growth Team (First Impression)",
+      "period": "07/2018 – 10/2025",
+      "description": "Led frontend development for the main acquisition funnel (homepage, landing pages, and onboarding flows), working closely with product, design, and backend engineering teams.",
+      "highlights": [
+        {
+          "id": "01",
+          "title": "Next.js App Router Migration",
+          "description": "Incrementally migrated landing page architecture from Pages Router to App Router with zero downtime, driving measurable Core Web Vitals improvements."
+        },
+        {
+          "id": "02",
+          "title": "Dynamic Promotion Engine",
+          "description": "Built a centralized promotional engine using React Context and custom priority logic to render real-time discount rules across high-traffic landing pages."
+        },
+        {
+          "id": "03",
+          "title": "Homepage Rebuild & Rebrand",
+          "description": "Spearheaded the frontend rebuild of the core homepage during a global rebranding, introducing dynamic feature targeting using Unleash."
+        },
+        {
+          "id": "04",
+          "title": "A/B Testing & Experimentation",
+          "description": "Shipped dozens of experiment variants across onboarding funnels, integrating GraphQL endpoints and Redux state management to validate conversion hypotheses."
+        },
+        {
+          "id": "05",
+          "title": "Design System & UI Library",
+          "description": "Architected and maintained the internal UI component library using Atomic Design principles and Storybook, significantly speeding up cross-team development."
+        },
+        {
+          "id": "06",
+          "title": "TypeScript Migration",
+          "description": "Guided the codebase transition from JavaScript to TypeScript, enhancing developer experience and drastically cutting runtime errors in production."
+        }
+      ]
+    },
+    "Projects": {
+      "title": "New side-projects coming soon",
+      "sub": "I'm currently documenting and refining my latest personal projects and case studies.",
+      "highlightBoxTitle": "Live Production Work",
+      "highlightBoxSub": "In the meantime, you can explore my recent work leading frontend architecture and growth experiments directly on CookUnity's live platform.",
+      "ctaPrimary": "Explore CookUnity",
+      "ctaSecondary": "View Experience details"
+    },
+    "Skills": {
+      "tag": "04 / SKILLS",
+      "headlineStart": "Skills,",
+      "headlineEm": "Technologies & Tools",
+      "headlineEnd": "",
+      "categories": {
+        "frontend": "FRONTEND",
+        "performance": "PERFORMANCE & BEST PRACTICES",
+        "tools": "TOOLS & WORKFLOW"
+      },
+      "items": {
+        "frontend": ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "Styled Components", "Storybook"],
+        "performance": ["Core Web Vitals", "Frontend SEO", "Semantic HTML", "Accessibility (a11y)"],
+        "tools": ["Git", "Figma", "Cursor", "Postman", "Unleash", "Strapi CMS"]
+      }
+    },
+    "Education": {
+      "tag": "05 / EDUCATION",
+      "headlineStart": "Academic Background,",
+      "headlineEm": "Education & Courses",
+      "headlineEnd": "",
+      "courses": [
+        {
+          "year": "2017",
+          "institution": "Ada Frontend Development Bootcamp",
+          "degree": "Frontend Development / Computer Programming"
+        },
+        {
+          "year": "2021",
+          "institution": "Coderhouse",
+          "degree": "UX/UI Design"
+        }
+      ]
+    },
+    "Contact": {
+      "tag": "06 / CONTACT",
+      "headlineStart": "Let's talk about",
+      "headlineEm": "Upcoming Challenges",
+      "headlineEnd": "",
+      "sub": "If you are looking for an engineer who masters the thin line between clean code, living design systems, and growth metrics, drop me a message.",
+      "labelName": "Name",
+      "placeholderName": "Your name",
+      "labelEmail": "Email",
+      "placeholderEmail": "you@example.com",
+      "labelMessage": "Message",
+      "placeholderMessage": "What project do you have in mind?",
+      "btnSubmit": "Send message",
+      "btnSending": "Sending...",
+      "successMessage": "Message sent successfully! I'll get back to you shortly."
+    },
+    "Footer": {
+      "copyright": "© 2026 Florencia Scavone",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "Email",
+      "backToTop": "Back to top ↑"
     }
   }
