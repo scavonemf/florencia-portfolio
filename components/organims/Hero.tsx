@@ -18,7 +18,7 @@ export default function Hero() {
         open={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       >
-<Projects />
+      <Projects />
      </Modal>
       <div className="flex flex-col justify-center">
         <span className="inline-block text-[11px] tracking-widest uppercase text-neutral-400 border border-neutral-200/60 dark:border-neutral-800 rounded-full px-3 py-1 w-fit mb-8">
@@ -32,7 +32,6 @@ export default function Hero() {
         <p className="text-[14px] text-neutral-500 dark:text-neutral-400 max-w-100 leading-[1.75] mb-10">
           {t('sub')}
         </p>
-      
         <div className="flex gap-3 flex-wrap">
           <button
             type="button"

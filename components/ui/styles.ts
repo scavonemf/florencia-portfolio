@@ -4,7 +4,7 @@ twoColumn:
 };
 
 export const heading = {
-  h2: "text-[clamp(2rem,4vw,2.8rem)] font-medium leading-[1.06] tracking-[-0.03em] mb-6 text-neutral-900 dark:text-neutral-50",
+  h2: "text-[clamp(2rem,4vw,2.8rem)] font-medium leading-[1.06] tracking-[-0.03em] mb-6 text-neutral-900 dark:text-neutral-50 mb-6",
   emphasis: "italic text-neutral-400",
 };
 

@@ -4,28 +4,29 @@ import SectionLayout from "../ui/SectionLayout";
 import SectionTag from "../ui/SectionTag";
 import SectionTitle from "../ui/SectionTitle";
 import { useTranslations } from "next-intl";
+import { text } from "../ui/styles";
 
 export const Skills = () => {
   const { skills } = cvData;
   const t = useTranslations("Skills");
   
   return (
-    <SectionLayout id="skills" twoColumn>
+    <SectionLayout id="skills">
       <div>
         <SectionTag text={t('tag')} />
         <SectionTitle title={t('headlineStart')} subtitle={t('headlineEm')} />
       </div>
-      <div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {skills.map((group) => (
-          <div key={group.category} className="space-y-2 mb-6">
-            <h3 className="text-[11px] font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">{group.category}</h3>
-            <div className="flex flex-wrap gap-2">
+          <div key={group.category} className="space-y-2 mb-6 border border-neutral-200 dark:border-neutral-800 rounded-xl p-5">
+            <h3 className="text-[11px] font-mono text-black dark:text-neutral-400 uppercase tracking-widest">{group.category}</h3>
+            <ul>
               {group.items.map((skill) => (
-                <span key={skill} className="text-xs px-3 py-1 rounded-md border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-950 text-neutral-700 dark:text-neutral-200 font-medium">
+                <li key={skill}  className={text.secondary}>
                   {skill}
-                </span>
+                </li>
               ))} 
-            </div>
+            </ul>
           </div>
         ))}
       </div>

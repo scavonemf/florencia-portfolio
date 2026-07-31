@@ -70,7 +70,7 @@ export default function Contact() {
                 })
               }
               className={input.field}
-              placeholder="tu@email.com"
+              placeholder={t("placeholderEmail")}
             />
           </div>
         </div>
