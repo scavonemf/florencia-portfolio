@@ -42,8 +42,8 @@ export default function Hero() {
             {t('ctaPrimary')}
           </button>
           <a 
-            href="/Florencia_Scavone_CV_Senior_Frontend.docx" 
-            download="Florencia_Scavone_CV_Senior_Frontend.docx"
+            href="/FlorenciaScavoneCV.pdf" 
+            download="FlorenciaScavoneCV.pdf"
             aria-label="Download Florencia Scavone's CV in PDF format"
             className="text-[13px] px-5.5 py-2.25 rounded-lg border border-neutral-200/60 dark:border-neutral-800 text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors inline-block"
           >

@@ -69,6 +69,7 @@
       ]
     },
     "Projects": {
+      "statusBadge": "Updating portfolio",
       "title": "New side-projects coming soon",
       "sub": "I'm currently documenting and refining my latest personal projects and case studies.",
       "highlightBoxTitle": "Live Production Work",
@@ -77,7 +78,7 @@
       "ctaSecondary": "View Experience details"
     },
     "Skills": {
-      "tag": "04 / SKILLS",
+      "tag": "02 / SKILLS",
       "headlineStart": "Skills,",
       "headlineEm": "Technologies & Tools",
       "headlineEnd": "",
@@ -93,7 +94,7 @@
       }
     },
     "Education": {
-      "tag": "05 / EDUCATION",
+      "tag": "03 / EDUCATION",
       "headlineStart": "Academic Background,",
       "headlineEm": "Education & Courses",
       "headlineEnd": "",
@@ -111,7 +112,7 @@
       ]
     },
     "Contact": {
-      "tag": "06 / CONTACT",
+      "tag": "04 / CONTACT",
       "headlineStart": "Let's talk about",
       "headlineEm": "Upcoming Challenges",
       "headlineEnd": "",

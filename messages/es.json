@@ -65,12 +65,12 @@
       "backToTop": "Volver arriba ↑"
     },
     "Projects": {
-      "statusBadge": "Updating portfolio",
-      "title": "New side-projects coming soon",
-      "sub": "I'm currently documenting and refining my latest personal projects and case studies.",
-      "highlightBoxTitle": "Live Production Work",
-      "highlightBoxSub": "In the meantime, you can explore my recent work leading frontend architecture and growth experiments directly on CookUnity's live platform.",
-      "ctaPrimary": "Explore CookUnity",
-      "ctaSecondary": "View Experience details"
+      "statusBadge": "Actualizando portfolio",
+      "title": "Nuevos proyectos próximamente",
+      "sub": "Actualmente estoy documentando y perfeccionando mis últimos proyectos personales y casos de estudio.",
+      "highlightBoxTitle": "Trabajo en producción",
+      "highlightBoxSub": "Mientras tanto, puedes explorar mi trabajo más reciente liderando la arquitectura frontend y los experimentos de Growth directamente en la plataforma de CookUnity.",
+      "ctaPrimary": "Explorar CookUnity",
+      "ctaSecondary": "Ver detalles de mi experiencia"
     }
   }

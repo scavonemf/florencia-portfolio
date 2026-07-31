@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import { getIsDark, subscribeTheme, toggleTheme } from "@/lib/theme";
 
-function ThemeToggle({ label }: { label: string }) {
+export function ThemeToggle({ label }: { label: string }) {
   const isDark = useSyncExternalStore(subscribeTheme, getIsDark, () => false);
 
   return (

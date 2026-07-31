@@ -7,7 +7,6 @@ import { Button } from "../ui/Button";
 import SectionTag from "../ui/SectionTag";
 import { cn } from "../../lib/utils";
 import {
-  feedback,
   form,
   input,
   section,
@@ -101,20 +100,11 @@ export default function Contact() {
           <Button
             type="submit"
             variant="primary"
-            disabled={status === "sending"}
             className={form.submit}
           >
-            {status === "sending"
-              ? t("btnSending")
-              : t("btnSubmit")}
+            {t("btnSubmit")}
           </Button>
         </div>
-
-        {status === "success" && (
-          <p className={feedback.success}>
-            ✓ {t("successMessage")}
-          </p>
-        )}
       </form>
     </section>
   );
