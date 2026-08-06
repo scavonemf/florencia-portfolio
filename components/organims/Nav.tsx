@@ -65,9 +65,6 @@ export default function Nav({ locale }: { locale: string }) {
           <Link href="/#skills" className={navLinkClass("/#skills")}>
             {t("skills")}
           </Link>
-          <Link href="/#education" className={navLinkClass("/#education")}>
-            {t("education")}
-          </Link>
         </div>
         <div className="hidden md:flex items-center gap-3">
           <ThemeToggle label={t("toggleTheme")} />
@@ -118,9 +115,6 @@ export default function Nav({ locale }: { locale: string }) {
           </Link>
            <Link href="/#skills" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("/#skills")}>
             {t("skills")}
-          </Link>
-           <Link href="/#education" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("/#education")}>
-            {t("education")}
           </Link>
 
           <a href="https://github.com/scavonemf" target="_blank" rel="noreferrer" className="text-sm text-neutral-600 dark:text-neutral-300 font-medium">

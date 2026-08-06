@@ -5,7 +5,6 @@
     "about": "Sobre mí",
     "experience": "Experiencia",
     "skills": "Habilidades",
-    "education": "Educación",
     "work": "Trabajo",
     "contact": "Contacto",
     "toggleTheme": "Cambiar tema"
@@ -43,7 +42,7 @@
     "headlineEnd": ""
   },
   "Contact": {
-    "tag": "04 / CONTACTO",
+    "tag": "03 / CONTACTO",
     "headlineStart": "Hablemos sobre tus",
     "headlineEm": "próximos desafíos",
     "headlineEnd": "",
