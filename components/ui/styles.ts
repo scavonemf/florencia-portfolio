@@ -12,7 +12,7 @@ export const text = {
   secondary:
     "text-neutral-500 dark:text-neutral-400 text-sm leading-relaxed",
     block:
-    "text-neutral-800 dark:text-neutral-200 text-base leading-relaxed font-sans",
+    "text-neutral-800 dark:text-neutral-200 text-base leading-relaxed font-sans mb-3",
 };
 
 export const input = {

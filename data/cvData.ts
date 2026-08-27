@@ -2,7 +2,7 @@ export const cvData = {
   skills: [
     {
       category: "Frontend",
-      items: ["React", "Next.js", "TypeScript","Tailwind CSS"]
+      items: ["React", "Next.js", "TypeScript","Tailwind CSS", "Storybook"]
     },
     {
       category: "UI Development",

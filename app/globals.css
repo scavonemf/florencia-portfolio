@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: var(--font-inter), sans-serif;
+  --font-display: var(--font-space-grotesk), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @layer components {

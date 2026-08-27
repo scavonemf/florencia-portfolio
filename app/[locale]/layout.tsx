@@ -4,13 +4,13 @@ import { hasLocale } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import type { Metadata } from 'next'
-import Nav from '@/components/organims/Nav'
+import Nav from '@/components/organims/Nav/Nav'
 import ThemeSync from '@/components/layout/ThemeSync'
-import Footer from '@/components/organims/Footer'
+import Footer from '@/components/organims/Footer/Footer'
 
 export const metadata: Metadata = {
-  title: 'Florencia Scavone — Design Engineer',
-  description: 'Design Engineer with 7 years building Growth products at CookUnity.',
+  title: 'Florencia Scavone — Frontend Engineer',
+  description: 'Frontend Engineer building accessible, high-performance interfaces with React, Next.js and TypeScript.',
 }
 
 export default async function LocaleLayout({
@@ -30,13 +30,11 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <>
+    <NextIntlClientProvider messages={messages}>
       <ThemeSync locale={locale} />
-      <NextIntlClientProvider messages={messages}>
-        <Nav locale={locale} />
-        {children}
-        <Footer />
-      </NextIntlClientProvider>
-    </>
+      <Nav locale={locale} />
+      {children}
+      <Footer />
+    </NextIntlClientProvider>
   )
 }

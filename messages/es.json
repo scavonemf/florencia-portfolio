@@ -1,61 +1,62 @@
 {
   "Nav": {
     "brand": "Florencia Scavone",
-    "home": "Inicio",
     "about": "Sobre mí",
-    "experience": "Experiencia",
-    "skills": "Habilidades",
-    "work": "Trabajo",
+    "projects": "Proyectos",
     "contact": "Contacto",
     "toggleTheme": "Cambiar tema"
   },
   "Hero": {
-    "tag": "Desarrolladora Frontend",
-    "headlineStart": "Transformando diseños",
-    "headlineEm": "en interfaces rápidas",
-    "headlineEnd": "y mantenibles.",
-    "sub": "7 años desarrollando experiencias web con React, TypeScript y Next.js.",
-    "ctaPrimary": "Ver proyectos",
+    "tag": "Frontend Developer",
+    "headlineStart": "Construyendo interfaces reflexivas",
+    "headlineEm": "con React, TypeScript y",
+    "headlineEnd": "Next.js.",
+    "sub": "7 años creando experiencias de usuario adaptables, accesibles y listas para producción.",
+    "ctaPrimary": "Ver trabajo",
     "ctaSecondary": "Descargar CV"
   },
- "About": {
-    "tag": "01 / SOBRE MÍ",
-    "headlineStart": "Construyendo experiencias ",
-    "headlineEm": "web escalables con visión de producto. ",
+  "About": {
+    "tag": "SOBRE MÍ",
+    "headlineStart": "Enfocada en producto, ",
+    "headlineEm": " no solo en píxeles.",
     "headlineEnd": "",
-    "sub": "Soy Florencia Scavone, desarrolladora Frontend con 7 años de experiencia creando aplicaciones web con React, TypeScript y Next.js.",
-    "secondSub": "Me especializo en transformar diseños y necesidades de producto en interfaces cuidadas, responsivas y listas para producción. Disfruto crear componentes reutilizables, desarrollar experiencias accesibles y construir aplicaciones que combinan calidad visual, rendimiento y mantenibilidad.",
-    "techStackTitle": "ESPECIALIDADES",
-    "skills": [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Responsive Design",
-      "Accessibility",
-      "Storybook"
-    ]
+    "sub": "Soy Florencia, Frontend Engineer con 7 años de experiencia construyendo aplicaciones web escalables con React, TypeScript y Next.js; recientemente en el equipo de Growth de CookUnity, liderando el embudo de adquisición de extremo a extremo.",
+    "secondSub": "Me especializo en transformar requerimientos de diseño y producto en interfaces pulidas y listas para producción: componentes reutilizables, layouts adaptables y experiencias accesibles que resisten el tráfico real, no solo en Figma.",
+    "thirdSub": "Me importan los detalles que suelen pasarse por alto —HTML semántico, navegación por teclado, Core Web Vitals— porque eso es lo que separa una interfaz que se ve terminada de una que realmente funciona para todos.",
+    "lastSub": "Fuera del trabajo técnico, creo pequeñas herramientas para mantener mis bases sólidas: librerías de componentes, integraciones con CMS headless y algún proyecto personal sin más fecha límite que la mía."
   },
-  "Skills": {
-    "tag": "02 / HABILIDADES",
-    "headlineStart": "Habilidades,",
-    "headlineEm": "Tecnologías y Herramientas",
-    "headlineEnd": ""
+  "Projects": {
+    "tag": "PROYECTOS",
+    "headlineStart": "Proyectos personales,",
+    "headlineEm": " en proceso.",
+    "sub": "Actualmente construyendo una librería de componentes conectada a un CMS headless. Los casos de estudio irán apareciendo aquí a medida que estén listos.",
+    "span1": "// próximamente",
+    "span2": "Más en camino — vuelve a consultar pronto."
+  },
+  "ProjectsModal": {
+    "statusBadge": "Actualizando portafolio",
+    "title": "Nuevos proyectos personales próximamente",
+    "sub": "Actualmente estoy documentando y refinando mis proyectos personales más recientes y casos de estudio.",
+    "highlightBoxTitle": "Trabajo en Producción",
+    "highlightBoxSub": "Mientras tanto, puedes explorar mi trabajo reciente liderando la arquitectura frontend y experimentos de Growth directamente en la plataforma de CookUnity.",
+    "ctaPrimary": "Explorar CookUnity",
+    "ctaSecondary": "Ver detalle de experiencia"
   },
   "Contact": {
-    "tag": "03 / CONTACTO",
-    "headlineStart": "Hablemos sobre tus",
-    "headlineEm": "próximos desafíos",
+    "tag": "CONTACTO",
+    "headlineStart": "Hablemos sobre",
+    "headlineEm": "lo que estás construyendo.",
     "headlineEnd": "",
-    "sub": "Si buscas una ingeniera frontend que entienda el punto de encuentro entre código limpio, sistemas de diseño escalables y métricas de crecimiento, escríbeme.",
+    "sub": "Si buscas una frontend engineer con capacidad para hacerse cargo de un feature desde su arquitectura hasta el último píxel lanzado — escríbeme.",
     "labelName": "Nombre",
     "placeholderName": "Tu nombre",
     "labelEmail": "Email",
-    "placeholderEmail": "tu@email.com",
+    "placeholderEmail": "tu@ejemplo.com",
     "labelMessage": "Mensaje",
-    "placeholderMessage": "¿Qué proyecto tienes en mente?",
+    "placeholderMessage": "¿En qué estás trabajando?",
     "btnSubmit": "Enviar mensaje",
     "btnSending": "Enviando...",
-    "successMessage": "¡Mensaje enviado con éxito! Te responderé en breve."
+    "successMessage": "¡Mensaje enviado con éxito! Te responderé a la brevedad."
   },
   "Footer": {
     "copyright": "© 2026 Florencia Scavone",
@@ -63,14 +64,5 @@
     "github": "GitHub",
     "email": "Email",
     "backToTop": "Volver arriba ↑"
-  },
-  "Projects": {
-    "statusBadge": "Actualizando portfolio",
-    "title": "Nuevos proyectos próximamente",
-    "sub": "Actualmente estoy documentando y perfeccionando mis últimos proyectos personales y casos de estudio.",
-    "highlightBoxTitle": "Trabajo en producción",
-    "highlightBoxSub": "Mientras tanto, puedes explorar mi trabajo más reciente liderando la arquitectura frontend y los experimentos de Growth directamente en la plataforma de CookUnity.",
-    "ctaPrimary": "Explorar CookUnity",
-    "ctaSecondary": "Ver detalles de mi experiencia"
   }
 }

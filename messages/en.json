@@ -1,42 +1,38 @@
 {
     "Nav": {
       "brand": "Florencia Scavone",
-      "home": "Home",
       "about": "About",
-      "experience": "Experience",
-      "skills": "Skills",
-      "education": "Education",
-      "work": "Work",
+      "projects": "Projects",
       "contact": "Contact",
       "toggleTheme": "Toggle theme"
     },
     "Hero": {
-      "tag": "Frontend Developer",
-      "headlineStart": "Building thoughtful interfaces",
-      "headlineEm": "with React, TypeScript and",
-      "headlineEnd": "Next.js.",
-      "sub": "7 years crafting responsive, accessible and production-ready user experiences.",
+      "tag": "Available for new roles",
+      "headlineStart": "Frontend Engineer building interfaces people",
+      "headlineEm": "actually trust.",
+      "sub": "7 years turning product requirements into accessible, production-ready React & Next.js interfaces — with a focus on performance, design systems, and the details most people skip.",
       "ctaPrimary": "View work",
       "ctaSecondary": "Download CV"
     },
-   "About": {
-        "tag": "01 / ABOUT",
-        "headlineStart": "Crafting scalable web experiences ",
-        "headlineEm": "with a product mindset. ",
-        "headlineEnd": "",
-        "sub": "I'm Florencia Scavone, a Frontend Developer with 7 years of experience building scalable web applications with React, TypeScript, and Next.js.",
-        "secondSub": "I specialize in translating product and design requirements into polished, production-ready interfaces. I enjoy building reusable components, creating responsive layouts, and delivering accessible experiences that balance usability, performance, and maintainability.",
-        "techStackTitle": "EXPERTISE",
-        "skills": [
-            "React",
-            "Next.js",
-            "TypeScript",
-            "Responsive Design",
-            "Accessibility",
-            "Storybook"
-        ]
+    "About": {
+      "tag": "ABOUT",
+      "headlineStart": "Product-minded, ",
+      "headlineEm": " not just pixel-minded. ",
+      "headlineEnd": "",
+      "sub": "I'm Florencia, a Frontend Engineer with 7 years of experience building scalable web applications with React, TypeScript, and Next.js — most recently on CookUnity's Growth team, owning the acquisition funnel end-to-end..",
+      "secondSub": "I specialize in translating product and design requirements into polished, production-ready interfaces: reusable components, responsive layouts, and accessible experiences that hold up under real traffic, not just in Figma.",
+      "thirdSub": "I care about the parts that are easy to skip — semantic markup, keyboard navigation, Core Web Vitals — because that's what separates an interface that looks done from one that actually works for everyone.",
+      "lastSub": "Outside of client work, I build small tools to keep my fundamentals sharp: component libraries, headless CMS integrations, and the odd side project that has no deadline but me."
     },
     "Projects": {
+      "tag": "PROJECTS",
+      "headlineStart": "Side projects,",
+      "headlineEm": " in progress.",
+      "sub": "Currently building a component library wired up to a headless CMS. Case studies land here as they're ready.",
+      "span1": "// coming soon",
+      "span2": "More on the way — check back shortly."
+    },
+    "ProjectsModal": {
       "statusBadge": "Updating portfolio",
       "title": "New side-projects coming soon",
       "sub": "I'm currently documenting and refining my latest personal projects and case studies.",
@@ -45,34 +41,18 @@
       "ctaPrimary": "Explore CookUnity",
       "ctaSecondary": "View Experience details"
     },
-    "Skills": {
-      "tag": "02 / SKILLS",
-      "headlineStart": "Skills,",
-      "headlineEm": "Technologies & Tools",
-      "headlineEnd": "",
-      "categories": {
-        "frontend": "FRONTEND",
-        "performance": "PERFORMANCE & BEST PRACTICES",
-        "tools": "TOOLS & WORKFLOW"
-      },
-      "items": {
-        "frontend": ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "Styled Components", "Storybook"],
-        "performance": ["Core Web Vitals", "Frontend SEO", "Semantic HTML", "Accessibility (a11y)"],
-        "tools": ["Git", "Figma", "Cursor", "Postman", "Unleash", "Strapi CMS"]
-      }
-    },
     "Contact": {
-      "tag": "03 / CONTACT",
+      "tag": "CONTACT",
       "headlineStart": "Let's talk about",
-      "headlineEm": "Upcoming Challenges",
+      "headlineEm": "what you're building.",
       "headlineEnd": "",
-      "sub": "If you are looking for an engineer who masters the thin line between clean code, living design systems, and growth metrics, drop me a message.",
+      "sub": "If you're looking for a frontend engineer who's comfortable owning a feature from architecture to shipped pixel — reach out.",
       "labelName": "Name",
       "placeholderName": "Your name",
       "labelEmail": "Email",
       "placeholderEmail": "you@example.com",
       "labelMessage": "Message",
-      "placeholderMessage": "What project do you have in mind?",
+      "placeholderMessage": "What are you working on?",
       "btnSubmit": "Send message",
       "btnSending": "Sending...",
       "successMessage": "Message sent successfully! I'll get back to you shortly."

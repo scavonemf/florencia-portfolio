@@ -47,23 +47,23 @@ export default function Nav({ locale }: { locale: string }) {
     }`;
 
   return (
-    <nav className="relative bg-white dark:bg-neutral-950 border-b border-neutral-200/60 dark:border-neutral-800 transition-colors duration-300 z-50">
+    <nav className="sticky top-0 bg-[rgba(var(--bg-rgb),0.75)] backdrop-blur-[10px]  border-b border-neutral-200/60  dark:border-neutral-800 transition-colors duration-300 z-50">
       <div className="flex justify-between items-center px-6 md:px-10 py-5 max-w-7xl mx-auto">
         <Link
           href="/"
           className="text-sm font-medium tracking-tight text-neutral-900 dark:text-neutral-50 hover:opacity-80 transition-opacity"
         >
-          Florencia Scavone
+         {t("brand")}
         </Link>
         <div className="hidden md:flex items-center gap-7">
-          <Link href="/" className={navLinkClass("/")}>
-            {t("home")}
-          </Link>
-          <Link href="/#about" className={navLinkClass("/#about")}>
+          <Link href="/#about" className={navLinkClass("#about")}>
             {t("about")}
           </Link>
-          <Link href="/#skills" className={navLinkClass("/#skills")}>
-            {t("skills")}
+          <Link href="/#projects" className={navLinkClass("#projects")}>
+            {t("projects")}
+          </Link>
+          <Link href='/#contact' className={navLinkClass('#contact')}>
+            {t("contact")}
           </Link>
         </div>
         <div className="hidden md:flex items-center gap-3">
@@ -76,9 +76,6 @@ export default function Nav({ locale }: { locale: string }) {
               ES
             </Link>
           </div>
-          <Link href='#contact' className="text-xs px-4 py-1.5 border border-neutral-300 dark:border-neutral-700 rounded-lg text-neutral-900 dark:text-neutral-100">
-            {t("contact")}
-          </Link>
         </div>
 
         <div className="flex md:hidden items-center gap-2">
@@ -107,22 +104,16 @@ export default function Nav({ locale }: { locale: string }) {
         isOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"
       }`}>
         <div className="px-6 py-6 flex flex-col gap-5 font-sans">
-          <Link href="/" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("/")}>
-            {t("home")}
-          </Link>
-          <Link href="/#about" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("/#about")}>
+          <Link href="#about" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("#about")}>
             {t("about")}
           </Link>
-           <Link href="/#skills" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("/#skills")}>
-            {t("skills")}
+           <Link href="#projects" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("#projects")}>
+            {t("projects")}
           </Link>
-
-          <a href="https://github.com/scavonemf" target="_blank" rel="noreferrer" className="text-sm text-neutral-600 dark:text-neutral-300 font-medium">
-            GitHub
-          </a>
-          
+          <Link href='#contact' onClick={() => setIsOpen(false)} className={mobileNavLinkClass("#contact")} >
+            {t("contact")}
+          </Link>
           <hr className="border-neutral-200 dark:border-neutral-800 my-1" />
-          
           <div className="flex justify-between items-center">
             <span className="text-xs text-neutral-400 font-mono">Language</span>
             <div className="flex gap-4 text-xs font-bold">
@@ -130,10 +121,6 @@ export default function Nav({ locale }: { locale: string }) {
               <Link href={pathname} locale="es" className={locale === "es" ? "text-neutral-950 dark:text-neutral-50 underline" : "text-neutral-400"}>ES</Link>
             </div>
           </div>
-
-          <button className="w-full text-center text-xs py-2.5 bg-neutral-950 dark:bg-neutral-50 text-white dark:text-neutral-950 rounded-lg font-medium mt-2">
-            {t("contact")}
-          </button>
         </div>
       </div>
     </nav>

@@ -1,8 +1,8 @@
 
 import { useTranslations } from 'next-intl';
 
-export default function Projects() {
-  const t = useTranslations('Projects');
+export default function ProjectsModal() {
+  const t = useTranslations('ProjectsModal');
 
   return (
       <div className="max-w-5xl mx-auto">

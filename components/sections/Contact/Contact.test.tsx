@@ -6,7 +6,7 @@ describe('Contact section', () => {
     render(<Contact />)
 
     const nameInput = screen.getByPlaceholderText('placeholderName')
-    const emailInput = screen.getByPlaceholderText('tu@email.com')
+    const emailInput = screen.getByPlaceholderText('placeholderEmail')
     const messageInput = screen.getByPlaceholderText('placeholderMessage')
     const submitButton = screen.getByRole('button', { name: 'btnSubmit' })
 
