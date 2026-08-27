@@ -2,7 +2,12 @@ import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google'
 import ThemeScript from '@/components/layout/ThemeScript'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-inter',
+  display: 'swap',
+})
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],

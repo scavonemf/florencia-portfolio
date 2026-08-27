@@ -67,9 +67,9 @@ export default function Hero() {
               src="/images/profile.jpeg"
               alt="Florencia Scavone"
               fill
-                priority
+              priority
               sizes="(max-width: 768px) 280px, 288px"
-              className="object-cover"
+              className="object-cover object-bottom"
             />
           </div>
         </div>
