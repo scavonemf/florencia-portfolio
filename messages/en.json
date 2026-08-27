@@ -34,12 +34,12 @@
     },
     "ProjectsModal": {
       "statusBadge": "Updating portfolio",
-      "title": "New side-projects coming soon",
+      "title": "New side projects coming soon",
       "sub": "I'm currently documenting and refining my latest personal projects and case studies.",
       "highlightBoxTitle": "Live Production Work",
-      "highlightBoxSub": "In the meantime, you can explore my recent work leading frontend architecture and growth experiments directly on CookUnity's live platform.",
+      "highlightBoxSub": "In the meantime, you can explore my recent work building frontend architecture and growth experiments on CookUnity's live platform.",
       "ctaPrimary": "Explore CookUnity",
-      "ctaSecondary": "View Experience details"
+      "ctaSecondary": "View experience details"
     },
     "Contact": {
       "tag": "CONTACT",

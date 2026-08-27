@@ -7,12 +7,11 @@
     "toggleTheme": "Cambiar tema"
   },
   "Hero": {
-    "tag": "Frontend Developer",
-    "headlineStart": "Construyendo interfaces reflexivas",
-    "headlineEm": "con React, TypeScript y",
-    "headlineEnd": "Next.js.",
-    "sub": "7 años creando experiencias de usuario adaptables, accesibles y listas para producción.",
-    "ctaPrimary": "Ver trabajo",
+    "tag": "Disponible para nuevos desafíos",
+    "headlineStart": "Frontend Engineer creando interfaces en las que las personas",
+    "headlineEm": "realmente confían.",
+    "sub": "7 años transformando requerimientos de producto en interfaces accesibles y listas para producción con React y Next.js, con foco en performance, design systems y esos detalles que la mayoría pasa por alto.",
+    "ctaPrimary": "Ver proyectos",
     "ctaSecondary": "Descargar CV"
   },
   "About": {
@@ -34,13 +33,13 @@
     "span2": "Más en camino — vuelve a consultar pronto."
   },
   "ProjectsModal": {
-    "statusBadge": "Actualizando portafolio",
+    "statusBadge": "Actualizando portfolio",
     "title": "Nuevos proyectos personales próximamente",
-    "sub": "Actualmente estoy documentando y refinando mis proyectos personales más recientes y casos de estudio.",
-    "highlightBoxTitle": "Trabajo en Producción",
-    "highlightBoxSub": "Mientras tanto, puedes explorar mi trabajo reciente liderando la arquitectura frontend y experimentos de Growth directamente en la plataforma de CookUnity.",
+    "sub": "Actualmente estoy documentando y perfeccionando mis últimos proyectos personales y casos de estudio.",
+    "highlightBoxTitle": "Trabajo en producción",
+    "highlightBoxSub": "Mientras tanto, podés explorar mi trabajo reciente desarrollando arquitectura frontend y experimentos de crecimiento en la plataforma de CookUnity.",
     "ctaPrimary": "Explorar CookUnity",
-    "ctaSecondary": "Ver detalle de experiencia"
+    "ctaSecondary": "Ver detalles de mi experiencia"
   },
   "Contact": {
     "tag": "CONTACTO",
