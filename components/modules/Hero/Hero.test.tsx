@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import Hero from '../Hero/Hero'
+import Hero from './Hero'
 
 describe('Hero section', () => {
   it('renders CTA buttons and opens modal', () => {

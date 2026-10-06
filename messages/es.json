@@ -2,6 +2,7 @@
   "Nav": {
     "brand": "Florencia Scavone",
     "about": "Sobre mí",
+    "experience": "Experiencia",
     "projects": "Proyectos",
     "contact": "Contacto",
     "toggleTheme": "Cambiar tema"
@@ -10,8 +11,8 @@
     "tag": "Disponible para nuevos desafíos",
     "headlineStart": "Frontend Engineer creando interfaces en las que las personas",
     "headlineEm": "realmente confían.",
-    "sub": "7 años transformando requerimientos de producto en interfaces accesibles y listas para producción con React y Next.js, con foco en performance, design systems y esos detalles que la mayoría pasa por alto.",
-    "ctaPrimary": "Ver proyectos",
+    "sub": "7 años construyendo interfaces accesibles y listas para producción con React y Next.js en CookUnity. Foco en performance, design systems y los detalles que casi todos pasan por alto.",
+    "ctaPrimary": "Ver experiencia",
     "ctaSecondary": "Descargar CV"
   },
   "About": {
@@ -19,27 +20,18 @@
     "headlineStart": "Enfocada en producto, ",
     "headlineEm": " no solo en píxeles.",
     "headlineEnd": "",
-    "sub": "Soy Florencia, Frontend Engineer con 7 años de experiencia construyendo aplicaciones web escalables con React, TypeScript y Next.js; recientemente en el equipo de Growth de CookUnity, liderando el embudo de adquisición de extremo a extremo.",
+    "sub": "Soy Florencia, Frontend Engineer con 7 años de experiencia construyendo aplicaciones web escalables con React, TypeScript y Next.js; recientemente en el equipo de Growth de CookUnity, a cargo de la homepage y las landing pages que traen nuevos usuarios.",
     "secondSub": "Me especializo en transformar requerimientos de diseño y producto en interfaces pulidas y listas para producción: componentes reutilizables, layouts adaptables y experiencias accesibles que resisten el tráfico real, no solo en Figma.",
     "thirdSub": "Me importan los detalles que suelen pasarse por alto —HTML semántico, navegación por teclado, Core Web Vitals— porque eso es lo que separa una interfaz que se ve terminada de una que realmente funciona para todos.",
-    "lastSub": "Fuera del trabajo técnico, creo pequeñas herramientas para mantener mis bases sólidas: librerías de componentes, integraciones con CMS headless y algún proyecto personal sin más fecha límite que la mía."
+    "lastSub": "Fuera del trabajo, creo pequeñas herramientas para mantener mis bases sólidas: librerías de componentes, integraciones con CMS headless y algún proyecto personal sin más fecha límite que la mía."
   },
   "Projects": {
     "tag": "PROYECTOS",
-    "headlineStart": "Proyectos personales,",
-    "headlineEm": " en proceso.",
-    "sub": "Actualmente construyendo una librería de componentes conectada a un CMS headless. Los casos de estudio irán apareciendo aquí a medida que estén listos.",
-    "span1": "// próximamente",
-    "span2": "Más en camino — vuelve a consultar pronto."
-  },
-  "ProjectsModal": {
-    "statusBadge": "Actualizando portfolio",
-    "title": "Nuevos proyectos personales próximamente",
-    "sub": "Actualmente estoy documentando y perfeccionando mis últimos proyectos personales y casos de estudio.",
-    "highlightBoxTitle": "Trabajo en producción",
-    "highlightBoxSub": "Mientras tanto, podés explorar mi trabajo reciente desarrollando arquitectura frontend y experimentos de crecimiento en la plataforma de CookUnity.",
-    "ctaPrimary": "Explorar CookUnity",
-    "ctaSecondary": "Ver detalles de mi experiencia"
+    "headlineStart": "Proyectos personales",
+    "span1": "Librería de componentes + CMS headless (en desarrollo)",
+    "span2": "Una librería de componentes en React y TypeScript con Storybook, conectada a un CMS headless.",
+    "span3": "Reconstruyendo los patrones que utilicé en mi trabajo (componentes impulsados por CMS, accesibles por defecto) como un proyecto público que puedo mostrar.",
+    "span4": "Stack: React · TypeScript · Tailwind · Storybook · Strapi"
   },
   "Contact": {
     "tag": "CONTACTO",
@@ -62,6 +54,21 @@
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Email",
-    "backToTop": "Volver arriba ↑"
+    "backToTop": "Volver arriba ↑",
+    "downloadCV": "Descargar CV"
+  },
+  "Experience": {
+    "tag": "Experiencia",
+    "headlineStart": "Dónde he trabajado",
+    "role": "Frontend Engineer",
+    "company": "CookUnity (equipo Growth, First Impression)",
+    "period": "2018 – 2025",
+    "bullet1": "Lideré la reconstrucción de la homepage durante un rebranding completo de la empresa, y fui responsable de la homepage y sus páginas satélite durante 5 años.",
+    "bullet2": "Construí y mantuve más de 20 landing pages para el equipo de Marketing con Next.js.",
+    "bullet3": "Creé una librería de aproximadamente 60 componentes reutilizables (React, TypeScript, Tailwind, Storybook, Atomic Design), conectada a Strapi para que Marketing arme y edite páginas sin depender de desarrollo.",
+    "bullet4": "Reduje el LCP de las landings principales optimizando imágenes, carga de fuentes y JavaScript de terceros.",
+    "bullet5": "Corrí más de 30 experimentos A/B y lanzamientos de funcionalidades (Unleash, Segment) para mejorar la activación y la conversión.",
+    "bullet6": "Trabajé a diario con diseñadores y product managers, y ayudé a resolver incidentes y bugs en producción, con monitoreo en Datadog.",
+    "ctaPrimary": "CookUnity.com"
   }
 }

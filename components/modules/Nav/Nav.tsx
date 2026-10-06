@@ -36,7 +36,7 @@ export default function Nav({ locale }: { locale: string }) {
     `text-xs transition-colors ${
       pathname === href
         ? "text-neutral-900 dark:text-neutral-50"
-        : "text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100"
+        : "text-neutral-500 dark:text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100"
     }`;
 
   const mobileNavLinkClass = (href: string) =>
@@ -49,15 +49,17 @@ export default function Nav({ locale }: { locale: string }) {
   return (
     <nav className="sticky top-0 bg-[rgba(var(--bg-rgb),0.75)] backdrop-blur-[10px]  border-b border-neutral-200/60  dark:border-neutral-800 transition-colors duration-300 z-50">
       <div className="flex justify-between items-center px-6 md:px-10 py-5 max-w-7xl mx-auto">
-        <Link
-          href="/"
-          className="text-sm font-medium tracking-tight text-neutral-900 dark:text-neutral-50 hover:opacity-80 transition-opacity"
+        <p
+          className="text-sm font-medium tracking-tight text-neutral-900 dark:text-neutral-50"
         >
          {t("brand")}
-        </Link>
+        </p>
         <div className="hidden md:flex items-center gap-7">
           <Link href="/#about" className={navLinkClass("#about")}>
             {t("about")}
+          </Link>
+             <Link href="/#experience" className={navLinkClass("#experience")}>
+            {t("experience")}
           </Link>
           <Link href="/#projects" className={navLinkClass("#projects")}>
             {t("projects")}
@@ -69,10 +71,10 @@ export default function Nav({ locale }: { locale: string }) {
         <div className="hidden md:flex items-center gap-3">
           <ThemeToggle label={t("toggleTheme")} />
           <div className="flex bg-neutral-100 dark:bg-neutral-900 p-0.5 rounded-lg border border-neutral-200/50 dark:border-neutral-800">
-            <Link href={pathname} locale="en" className={`text-[11px] px-2.5 py-1 rounded-md font-medium transition-all ${locale === "en" ? "bg-white dark:bg-neutral-800 text-neutral-900 dark:text-neutral-50 shadow-sm" : "text-neutral-400"}`}>
+            <Link href={pathname} locale="en" className={`text-[11px] px-2.5 py-1 rounded-md font-medium transition-all ${locale === "en" ? "bg-white dark:bg-neutral-800 text-neutral-900 dark:text-neutral-50 shadow-sm" : "text-neutral-600"}`}>
               EN
             </Link>
-            <Link href={pathname} locale="es" className={`text-[11px] px-2.5 py-1 rounded-md font-medium transition-all ${locale === "es" ? "bg-white dark:bg-neutral-800 text-neutral-900 dark:text-neutral-50 shadow-sm" : "text-neutral-400"}`}>
+            <Link href={pathname} locale="es" className={`text-[11px] px-2.5 py-1 rounded-md font-medium transition-all ${locale === "es" ? "bg-white dark:bg-neutral-800 text-neutral-900 dark:text-neutral-50 shadow-sm" : "text-neutral-600"}`}>
               ES
             </Link>
           </div>
@@ -107,6 +109,9 @@ export default function Nav({ locale }: { locale: string }) {
           <Link href="#about" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("#about")}>
             {t("about")}
           </Link>
+          <Link href="#experience" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("#experience")}>
+            {t("experience")}
+          </Link>
            <Link href="#projects" onClick={() => setIsOpen(false)} className={mobileNavLinkClass("#projects")}>
             {t("projects")}
           </Link>
@@ -115,10 +120,10 @@ export default function Nav({ locale }: { locale: string }) {
           </Link>
           <hr className="border-neutral-200 dark:border-neutral-800 my-1" />
           <div className="flex justify-between items-center">
-            <span className="text-xs text-neutral-400 font-mono">Language</span>
+            <span className="text-xs text-neutral-500 font-mono">Language</span>
             <div className="flex gap-4 text-xs font-bold">
-              <Link href={pathname} locale="en" className={locale === "en" ? "text-neutral-950 dark:text-neutral-50 underline" : "text-neutral-400"}>EN</Link>
-              <Link href={pathname} locale="es" className={locale === "es" ? "text-neutral-950 dark:text-neutral-50 underline" : "text-neutral-400"}>ES</Link>
+              <Link href={pathname} locale="en" className={locale === "en" ? "text-neutral-950 dark:text-neutral-50 underline" : "text-neutral-500"}>EN</Link>
+              <Link href={pathname} locale="es" className={locale === "es" ? "text-neutral-950 dark:text-neutral-50 underline" : "text-neutral-500"}>ES</Link>
             </div>
           </div>
         </div>

@@ -4,9 +4,9 @@ import { hasLocale } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import type { Metadata } from 'next'
-import Nav from '@/components/organims/Nav/Nav'
+import Nav from '@/components/modules/Nav/Nav'
 import ThemeSync from '@/components/layout/ThemeSync'
-import Footer from '@/components/organims/Footer/Footer'
+import Footer from '@/components/modules/Footer/Footer'
 
 export const metadata: Metadata = {
   title: 'Florencia Scavone — Frontend Engineer',

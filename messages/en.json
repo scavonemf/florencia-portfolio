@@ -2,6 +2,7 @@
     "Nav": {
       "brand": "Florencia Scavone",
       "about": "About",
+      "experience": "Experience",
       "projects": "Projects",
       "contact": "Contact",
       "toggleTheme": "Toggle theme"
@@ -10,8 +11,8 @@
       "tag": "Available for new roles",
       "headlineStart": "Frontend Engineer building interfaces people",
       "headlineEm": "actually trust.",
-      "sub": "7 years turning product requirements into accessible, production-ready React & Next.js interfaces — with a focus on performance, design systems, and the details most people skip.",
-      "ctaPrimary": "View work",
+      "sub": "7 years building accessible, production-ready React & Next.js interfaces at CookUnity. Focus on performance, design systems, and the details most people skip.",
+      "ctaPrimary": "View experience",
       "ctaSecondary": "Download CV"
     },
     "About": {
@@ -19,27 +20,18 @@
       "headlineStart": "Product-minded, ",
       "headlineEm": " not just pixel-minded. ",
       "headlineEnd": "",
-      "sub": "I'm Florencia, a Frontend Engineer with 7 years of experience building scalable web applications with React, TypeScript, and Next.js — most recently on CookUnity's Growth team, owning the acquisition funnel end-to-end..",
+      "sub": "I'm Florencia, a Frontend Engineer with 7 years of experience building scalable web applications with React, TypeScript, and Next.js — most recently on CookUnity's Growth team, owning the homepage and landing pages that bring new users in.",
       "secondSub": "I specialize in translating product and design requirements into polished, production-ready interfaces: reusable components, responsive layouts, and accessible experiences that hold up under real traffic, not just in Figma.",
       "thirdSub": "I care about the parts that are easy to skip — semantic markup, keyboard navigation, Core Web Vitals — because that's what separates an interface that looks done from one that actually works for everyone.",
-      "lastSub": "Outside of client work, I build small tools to keep my fundamentals sharp: component libraries, headless CMS integrations, and the odd side project that has no deadline but me."
+      "lastSub": "Outside of work, I build small tools to keep my fundamentals sharp: component libraries, headless CMS integrations, and the odd side project that has no deadline but me."
     },
     "Projects": {
       "tag": "PROJECTS",
-      "headlineStart": "Side projects,",
-      "headlineEm": " in progress.",
-      "sub": "Currently building a component library wired up to a headless CMS. Case studies land here as they're ready.",
-      "span1": "// coming soon",
-      "span2": "More on the way — check back shortly."
-    },
-    "ProjectsModal": {
-      "statusBadge": "Updating portfolio",
-      "title": "New side projects coming soon",
-      "sub": "I'm currently documenting and refining my latest personal projects and case studies.",
-      "highlightBoxTitle": "Live Production Work",
-      "highlightBoxSub": "In the meantime, you can explore my recent work building frontend architecture and growth experiments on CookUnity's live platform.",
-      "ctaPrimary": "Explore CookUnity",
-      "ctaSecondary": "View experience details"
+      "headlineStart": "Side projects",
+      "span1": "Component library + headless CMS (in progress)",
+      "span2": "A React and TypeScript component library with Storybook, wired to a headless CMS. ",
+      "span3": "Rebuilding the patterns I used at work (CMS-driven components, accessible by default) as a public project I can show." ,
+      "span4": "Stack: React · TypeScript · Tailwind · Storybook · Strapi"
     },
     "Contact": {
       "tag": "CONTACT",
@@ -62,6 +54,21 @@
       "linkedin": "LinkedIn",
       "github": "GitHub",
       "email": "Email",
-      "backToTop": "Back to top ↑"
+      "backToTop": "Back to top ↑",
+      "downloadCV": "Download CV"
+    },
+    "Experience": {
+      "tag": "Experience",
+      "headlineStart": "Where I've Worked",
+      "role": "Frontend Engineer",
+      "company": "CookUnity (Growth Team, First Impression)",
+      "period": "2018 – 2025",
+      "bullet1": "Led the homepage rebuild during a full company rebranding, and owned the homepage and its satellite pages for 5 years.",
+      "bullet2": "Built and maintained 20+ landing pages for the Marketing team in Next.js.",
+      "bullet3": "Created a library of about 60 reusable components (React, TypeScript, Tailwind, Storybook, Atomic Design), connected to Strapi so Marketing can build and edit pages without developers.",
+      "bullet4": "Reduced LCP on the main landing pages by optimizing images, font loading and third-party JavaScript.",
+      "bullet5": "Ran 30+ A/B experiments and feature rollouts (Unleash, Segment) to improve activation and conversion.",
+      "bullet6": "Worked daily with designers and product managers, and helped resolve production incidents and bugs, monitoring with Datadog.",
+      "ctaPrimary": "CookUnity website"
     }
   }

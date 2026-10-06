@@ -5,19 +5,19 @@ twoColumn:
 
 export const heading = {
   h2: "text-[clamp(2rem,4vw,2.8rem)] font-medium leading-[1.06] tracking-[-0.03em] mb-6 text-neutral-900 dark:text-neutral-50 mb-6",
-  emphasis: "italic text-neutral-400",
+  emphasis: "italic text-neutral-500",
 };
 
 export const text = {
   secondary:
-    "text-neutral-500 dark:text-neutral-400 text-sm leading-relaxed",
+    "text-neutral-500 dark:text-neutral-500 text-sm leading-relaxed",
     block:
     "text-neutral-800 dark:text-neutral-200 text-base leading-relaxed font-sans mb-3",
 };
 
 export const input = {
   label:
-    "text-[11px] tracking-widest font-mono uppercase text-neutral-400",
+    "text-[11px] tracking-widest font-mono uppercase text-neutral-500",
 
   field:
     "w-full bg-transparent border border-neutral-200/60 dark:border-neutral-800 rounded-lg px-4 py-2.5 text-[13px] text-neutral-900 dark:text-neutral-50 transition-colors focus:outline-none focus:border-neutral-400 dark:focus:border-neutral-600",

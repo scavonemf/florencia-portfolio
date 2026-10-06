@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl";
 import SectionLayout from "../../ui/SectionLayout";
-import { text } from "../../ui/styles";
 import SectionTag from "../../ui/SectionTag";
 import SectionTitle from "../../ui/SectionTitle";
 import { RevealBlock } from "../../ui/RevealBlock/RevealBlock";
+import { text } from "@/components/ui/styles";
 
 
 export default function Projects() {
@@ -13,15 +13,13 @@ export default function Projects() {
     <SectionLayout id="projects">
       <RevealBlock>
         <SectionTag text={t('tag')} />
-        <SectionTitle title={t('headlineStart')} subtitle={t('headlineEm')} />
-         <p className={text.block}>{t('sub')}</p>
+        <SectionTitle title={t('headlineStart')} />
       </RevealBlock>
       <RevealBlock delay="100ms">
-        <div className="border border-dashed rounded-xl px-8 py-12 text-center text-[14.5px] mt-12 border-indigo-300">
-          <span>{t('span1')}</span> 
-          <br /> 
-          <span>{t('span2')}</span>
-        </div>
+        <p className={text.block}><strong className="text-neutral-900 dark:text-neutral-50">{t('span1')}</strong></p> 
+        <p className={text.block}>{t('span2')}</p>
+        <p className={text.block}>{t('span3')}</p> 
+        <p className={text.block}>{t('span4')}</p>
       </RevealBlock>
     </SectionLayout>
   );
