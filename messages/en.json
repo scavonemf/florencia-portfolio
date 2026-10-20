@@ -57,18 +57,18 @@
       "backToTop": "Back to top ↑",
       "downloadCV": "Download CV"
     },
-    "Experience": {
-      "tag": "Experience",
-      "headlineStart": "Where I've Worked",
-      "role": "Frontend Engineer",
-      "company": "CookUnity (Growth Team, First Impression)",
-      "period": "2018 – 2025",
-      "bullet1": "Led the homepage rebuild during a full company rebranding, and owned the homepage and its satellite pages for 5 years.",
-      "bullet2": "Built and maintained 20+ landing pages for the Marketing team in Next.js.",
-      "bullet3": "Created a library of about 60 reusable components (React, TypeScript, Tailwind, Storybook, Atomic Design), connected to Strapi so Marketing can build and edit pages without developers.",
-      "bullet4": "Reduced LCP on the main landing pages by optimizing images, font loading and third-party JavaScript.",
-      "bullet5": "Ran 30+ A/B experiments and feature rollouts (Unleash, Segment) to improve activation and conversion.",
-      "bullet6": "Worked daily with designers and product managers, and helped resolve production incidents and bugs, monitoring with Datadog.",
-      "ctaPrimary": "CookUnity website"
-    }
+"Experience": {
+  "tag": "Experience",
+  "headlineStart": "Where I've Worked",
+  "role": "Frontend Engineer",
+  "company": "CookUnity (Growth Team, First Impression)",
+  "period": "2018 – 2025",
+  "bullet1": "Rebuilt the company homepage from scratch during a full rebranding, with custom tablet layouts and animated components (carousels, accordions), and owned it and its satellite pages for 5 years.",
+  "bullet2": "Built a centralized promotions engine (React Context and a priority-chain algorithm) to manage business logic across the landing pages, resolving data inconsistencies that had been generating a steady volume of support tickets.",
+  "bullet3": "Migrated the landing page platform from Next.js Pages Router to App Router incrementally, validating performance and functionality route by route.",
+  "bullet4": "Built and maintained 20+ landing pages in Next.js, plus a library of about 60 reusable components (React, TypeScript, Tailwind, Storybook, Atomic Design) connected to Strapi, so Marketing could build and edit pages without developers.",
+  "bullet5": "Owned performance, SEO and accessibility for the landing platform: improved LCP by reworking image delivery, font loading and third-party scripts, with semantic, keyboard-navigable markup across the pages.",
+  "bullet6": "Ran 30+ A/B experiments and feature rollouts (Unleash, Segment), including onboarding funnel variations built with Redux, working daily with designers, product managers and backend engineers.",
+  "ctaPrimary": "CookUnity website"
+}
   }

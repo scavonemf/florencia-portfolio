@@ -6,7 +6,7 @@ export const cvData = {
     },
     {
       category: "UI Development",
-      items: ["Responsive Design", "Design Systems", "Storybook", "Accessibility", "Core Web Vitals"]
+      items: ["Responsive Design", "Design Systems", "Atomic Design", "Accessibility", "Core Web Vitals"]
     },
     {
       category: "Product Development",

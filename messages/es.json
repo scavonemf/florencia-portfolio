@@ -63,12 +63,12 @@
     "role": "Frontend Engineer",
     "company": "CookUnity (equipo Growth, First Impression)",
     "period": "2018 – 2025",
-    "bullet1": "Lideré la reconstrucción de la homepage durante un rebranding completo de la empresa, y fui responsable de la homepage y sus páginas satélite durante 5 años.",
-    "bullet2": "Construí y mantuve más de 20 landing pages para el equipo de Marketing con Next.js.",
-    "bullet3": "Creé una librería de aproximadamente 60 componentes reutilizables (React, TypeScript, Tailwind, Storybook, Atomic Design), conectada a Strapi para que Marketing arme y edite páginas sin depender de desarrollo.",
-    "bullet4": "Reduje el LCP de las landings principales optimizando imágenes, carga de fuentes y JavaScript de terceros.",
-    "bullet5": "Corrí más de 30 experimentos A/B y lanzamientos de funcionalidades (Unleash, Segment) para mejorar la activación y la conversión.",
-    "bullet6": "Trabajé a diario con diseñadores y product managers, y ayudé a resolver incidentes y bugs en producción, con monitoreo en Datadog.",
+    "bullet1": "Reconstruí la homepage de la empresa desde cero durante un rebranding completo, con layouts personalizados para tablet y componentes animados (carruseles, acordeones), y fui responsable de ella y de sus páginas satélite durante 5 años.",
+    "bullet2": "Construí un motor de promociones centralizado (React Context y un algoritmo de cadena de prioridades) para manejar la lógica de negocio de las landing pages, y resolví inconsistencias de datos que generaban un volumen constante de tickets de soporte.",
+    "bullet3": "Migré la plataforma de landing pages de Pages Router a App Router de Next.js de forma incremental, validando performance y funcionamiento ruta por ruta.",
+    "bullet4": "Construí y mantuve más de 20 landing pages en Next.js, y una librería de aproximadamente 60 componentes reutilizables (React, TypeScript, Tailwind, Storybook, Atomic Design) conectada a Strapi, para que Marketing arme y edite páginas sin depender de desarrollo.",
+    "bullet5": "Fui responsable de la performance, el SEO y la accesibilidad de la plataforma de landings: mejoré el LCP reformulando la entrega de imágenes, la carga de fuentes y los scripts de terceros, con marcado semántico y navegable por teclado en todas las páginas.",
+    "bullet6": "Corrí más de 30 experimentos A/B y lanzamientos de funcionalidades (Unleash, Segment), incluyendo variaciones del funnel de onboarding con Redux, trabajando a diario con diseñadores, product managers y backend engineers.",
     "ctaPrimary": "CookUnity.com"
   }
 }
